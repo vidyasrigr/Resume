@@ -1,0 +1,259 @@
+\documentclass[letterpaper,10.5pt]{article}
+
+\usepackage{utopia}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.49in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center} 
+    {\huge \scshape Vidyasri Ganapathi Ravi} \\ \vspace{1pt}
+    %120 Ocean Street, Santa Cruz, CA 95060 \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ (831) 854-6570 ~ \href{vidyasrigravi@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{vidyasrigr@gmail.com}} ~ 
+    \href{https://www.linkedin.com/in/vidyasri-gr/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/VidyasriGR}}  ~
+    \href{https://github.com/vidyasrigr}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/VidyasriGR}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of California Santa Cruz}{Sep 2021 -- June 2023 (expected)}
+      {Master of Science in Computer Science}{Santa Cruz, CA}
+      \resumeItemListStart
+        \resumeItem{Relevant Coursework - Artificial Intelligence, Advanced Machine Learning, Foundations of Data Science, Introduction to Statistical Data Analysis, Analysis of Algorithms}
+    \resumeItemListEnd
+    \resumeSubheading
+      {Kumaraguru College of Technology}{Aug 2011 -- Apr 2015}
+      {Bachelor of Engineering in Computer Science}{Coimbatore, India}
+      \resumeItemListStart
+        \resumeItem{Relevant Coursework - Data Structures, Design and Analysis of Algorithms, Object Oriented Programming}
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%------RELEVANT COURSEWORK-------
+%\section{Relevant Coursework}
+    %\resumeSubHeadingListStart
+%        \begin{multicols}{4}
+%            \begin{itemize}[itemsep=-5pt, parsep=3pt]
+%                \item\small Data Structures
+%                \item Software Methodology
+%                \item Algorithms Analysis
+%                \item Database Management
+%                \item Artificial Intelligence
+%                \item Internet Technology
+%                \item Systems Programming
+%                \item Computer Architecture
+%            \end{itemize}
+%        \end{multicols}
+%        \vspace*{2.0\multicolsep}
+    %\resumeSubHeadingListEnd
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+
+\section{Technical Skills}
+	\resumeSubHeadingListStart
+	\resumeSubItem{\textbf{Languages:}}{~~~~~~~~~\tab Python, R, PostgreSQL, SQL, Bash/Shell, HTML, CSS}
+	\resumeSubItem{\textbf{IDEs:}}{~~~~~~~~~~~~~~~~~~~~~\tab Jupyter Notebook, R Studio, VS Code, PyCharm, Docker}
+	\resumeSubItem{\textbf{Frameworks:}}{~~~~~\tab TensorFlow, PyTorch, Keras, Scikit-learn, Pandas, NumPy, SciPy, OpenCV, NLTK}
+	\resumeSubItem{\textbf{Tools:}}{~~~~~~~~~~~~~~~~~~~~\tab SFDC, Tableau, Apache Spark, Git, \LaTeX}
+	\resumeSubItem{\textbf{ML Algorithms:}}{CNN, RNN, LSTM, GAN, Transformers, MAML, RL, Regression \& Classification, Clustering, Boosting}
+	% \resumeSubItem{\textbf{Soft Skills:}}{~~~~~~~~~~~\tab Leadership, Time Management, Critical Reasoning, Problem-solving, Adaptable}
+ 
+
+%-----------WORK EXPERIENCE-----------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+  \resumeSubheading
+      {Teaching Assistant}{Sep 2021 -- Present}
+      {University of California Santa Cruz}{Santa Cruz, CA}
+      \vspace{3pt}
+      \resumeItemListStart[label={\tiny$\bullet$}]
+        \resumeItem{TA for 4 courses - Programming Abstractions in Python, Advanced Programming, Introduction to Software Engineering, and System Analysis and Design}
+        \resumeItem{Key topics discussed in these courses - Python 3 methods, structures, symbolic expressions \& Machine Learning, graphs, dynamic algorithms and tree traversal algorithms; Data abstraction, inheritance, polymorphism, and object-oriented design; Requirements analysis, design, development, validation, maintenance and management of well-engineered software systems.}
+        % \resumeItem{Mentored students for Python project implementation, held discussion sections, created assignment solutions and graded the work of 140 students.}
+    \resumeItemListEnd
+   \vspace{10pt} 
+    \resumeSubheading
+      {Data Analyst}{May 2016 -- Aug 2021}
+      {CVS Health (Cognizant)}{Coimbatore, India}
+      \vspace{3pt}
+      \resumeItemListStart[label={\tiny$\bullet$}]
+        \resumeItem{Utilized propensity modeling to visualize customer drug utilization and optimize pricing, leading to a 12\% boost in annual revenue.}
+        \resumeItem{Created dynamic Tableau dashboards for 20+ healthcare providers to display market share and drug performance, saving 3 hours of manual effort per week and eliminating redundant work across 4 LOB teams.}
+        \resumeItem{Led a team of 7 analysts and trained 30+ analysts in employing predictive modeling to tailor profitable healthcare plans for three \$10B portfolios, resulting in incremental revenue.}
+        \resumeItem{Built analytical pipelines for ad-hoc analysis and in-depth investigation of healthcare utilization trends and drug dispensation turnaround time, and deployed them in the cloud using GCP.}
+        \resumeItem{Performed ETL on structured, semi-structured and unstructured data corresponding to 500,000+ health plans to make financial projections of drug spend and profit margin.}
+        % \resumeItem{Trained 30+ analysts on Agile methodology and Microstrategy to identify areas of improvement and implement robust analytical solutions.}
+        \resumeItem{Presented insights generated by advanced SQL queries to non-technical stakeholders from 25+ leading health insurance companies.}
+        \resumeItem{Received Pillar of the Month and Star Performer awards numerous times, for excellence as a Data Analyst, SME and Team Lead.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+\vspace{-7pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+          {\textbf{Description Generation for Images using DNN and XAI} $|$ \emph{PyTorch, SHAP, Python}}{Jan 2023 - May 2023}
+          \vspace{-5pt}
+          \resumeItemListStart[label={\tiny$\bullet$}]
+            \resumeItem{Used VGG-16 for image classification and LSTM for sentence generation, achieving a BLEU score of 0.61433 on Flicker30k dataset.}
+            \resumeItem{Used post-hoc methods of SHAP to enhance interpretability of the decision-making process of black-box models.}
+          \resumeItemListEnd 
+          \vspace{-4pt}
+      \resumeProjectHeading 
+          {\textbf{HD Anime Face Generator} $|$ \emph{Keras, TensorFlow, NumPy, Matplotlib, CUDA, Python}}{Mar 2023 - Apr 2023}
+          \vspace{-5pt}
+          \resumeItemListStart[label={\tiny$\bullet$}]
+            \resumeItem{Implemented DCGANs to generate diverse high quality anime faces using Kaggle's Anime Face dataset of 92000+ HD images.}
+            \resumeItem{The model achieved an FID score of 56 indicating a close match between the distribution of generated and real images.}
+          \resumeItemListEnd 
+          \vspace{-4pt}
+      \resumeProjectHeading 
+          {\textbf{Creating a Viral TikTok Video} $|$ \emph{R Studio, XGBoost, ggplot2, dplyr}}{Sep 2022 - Oct 2022}
+          \vspace{-5pt}
+          \resumeItemListStart[label={\tiny$\bullet$}]
+            \resumeItem{Analyzed Kaggle's TikTok dataset of 3500+ observations with 27 features through EDA, multi-way ANOVA, and PCA.}
+            \resumeItem{Trained on MLR, Logistic Regression, KNN, SVM, and XGBoost to identify the key features for a TikTok video to go viral.}
+            \resumeItem{Compared the results for 5, 8, and 12 features using AUC ROC, F1 score, and heatmap, determining the 8 features crucial for creating a viral TikTok video.}
+          \resumeItemListEnd 
+          \vspace{-4pt}
+      \resumeProjectHeading
+          {\textbf{Bitcoin Time Series Forecasting} $|$ \emph{TensorFlow, Pandas, NumPy, Python}}{Dec 2021 - Jan 2022}
+          \vspace{-5pt}
+          \resumeItemListStart[label={\tiny$\bullet$}]
+            \resumeItem{Trained a Machine Learning Model using bi-directional LSTM Neural Network on Yahoo Finance dataset with upto 97\% accuracy and RMSE loss of 0.054 indicating a good fit.}
+            \resumeItem{Compared the results of Bi-LSTM with ARIMA, GRU and LSTM models and concluded that Bi-LSTM outperforms the other models.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+\vspace{-8pt}
+
+
+%-----------INVOLVEMENT---------------
+%\section{Accomplishments}
+    %\resumeSubHeadingListStart
+        % \resumeSubheading{Fraternity}{Spring 2020 -- Present}{President}{University Name}
+            %\resumeItemListStart[label={\tiny$\bullet$}]
+                %\resumeItem{First runner-up for presenting a research paper on "Hybrid Machine Translation using Natural Language Processing", issued by International Outreach 2013 in partnership with University of Edinburgh, UK, and the competition was judged by Prof. Sharon Goldwater, Personal Chair of Computational Language Learning at the University of Edinburgh, UK.}
+                %\resumeItem{Awarded Pillar of the Month Award, Star Performer Award,  Spotlight Award over 15 times for excelling in all the roles I played at Cognizant – Program Analyst, SME and Team Lead.}
+            %\resumeItemListEnd
+
+        
+     \resumeSubHeadingListEnd
+\end{document}
